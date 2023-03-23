@@ -33,4 +33,4 @@ services:
     ports:
       - 8080:80
   grafana-kiosk:
-    image: slimbean/grafana-kiosk
+    image: slimbean/grafana-kiosk:2022-01-07v2
