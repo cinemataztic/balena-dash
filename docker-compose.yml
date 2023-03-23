@@ -32,3 +32,5 @@ services:
     privileged: true
     ports:
       - 8080:80
+  grafana-kiosk:
+    image: slimbean/grafana-kiosk
